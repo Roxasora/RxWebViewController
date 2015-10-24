@@ -10,11 +10,16 @@ like the screen shot gif
 
 ### usage使用
 
-####Install 安装
+###Install 安装
+
+-------
+
 You just need to drag/copy the "RxWebViewController" folder and drop in your project
 将“RxWebViewController”文件夹拖进你的工程中即可
 
-####init and push 
+###init and push 
+
+-------
 
 usage is simple
    		
@@ -23,6 +28,8 @@ usage is simple
     	[self.navigationController pushViewController:webViewController animated:YES];
 
 ####and if you want to do some custom things with webview,just subclass it 如果你需要webview的更进一步自定义，子类化即可
+
+
 		@interface myWebViewController : RxWebViewController
 
 		//do your custom things
@@ -31,6 +38,8 @@ usage is simple
                                 
                                 
 ####navigation bar tint color and back button style 导航栏的颜色和返回按钮样式
+
+
 导航栏中出现的 返回 和 关闭 ，均会继承你的 navigationController 中对 navigationBar 的设置，比如：
 
 		UIColor* tintColor = [UIColor whiteColor];
@@ -50,4 +59,7 @@ usage is simple
  
  
 ###Thanks
+
+-------
+
  **I used [NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress) to make navigation progress, it helps a lot**
