@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F511A4781BDB7B0A00C012CB /* icon-140.png in Resources */ = {isa = PBXBuildFile; fileRef = F511A4771BDB7B0A00C012CB /* icon-140.png */; settings = {ASSET_TAGS = (); }; };
 		F53D319E1BDA4FCA002322E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D319D1BDA4FCA002322E1 /* main.m */; };
 		F53D31A11BDA4FCA002322E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31A01BDA4FCA002322E1 /* AppDelegate.m */; };
 		F53D31A41BDA4FCA002322E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31A31BDA4FCA002322E1 /* ViewController.m */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F511A4771BDB7B0A00C012CB /* icon-140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-140.png"; sourceTree = "<group>"; };
 		F53D31991BDA4FCA002322E1 /* RxWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53D319D1BDA4FCA002322E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F53D319F1BDA4FCA002322E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				F53D31A81BDA4FCA002322E1 /* Assets.xcassets */,
 				F53D31AA1BDA4FCA002322E1 /* LaunchScreen.storyboard */,
 				F53D31AD1BDA4FCA002322E1 /* Info.plist */,
+				F511A4771BDB7B0A00C012CB /* icon-140.png */,
 				F53D319C1BDA4FCA002322E1 /* Supporting Files */,
 			);
 			path = RxWebViewController;
@@ -310,6 +313,7 @@
 			files = (
 				F53D31DD1BDA67A8002322E1 /* backItemImage@2x.png in Resources */,
 				F53D31DF1BDA6CFA002322E1 /* backItemImage_hl@2x.png in Resources */,
+				F511A4781BDB7B0A00C012CB /* icon-140.png in Resources */,
 				F53D31AC1BDA4FCA002322E1 /* LaunchScreen.storyboard in Resources */,
 				F53D31A91BDA4FCA002322E1 /* Assets.xcassets in Resources */,
 				F53D31A71BDA4FCA002322E1 /* Main.storyboard in Resources */,

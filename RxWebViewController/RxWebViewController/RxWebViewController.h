@@ -39,7 +39,5 @@
 
 @end
 
-@interface UINavigationController (RxWebView)<UINavigationBarDelegate>
 
-@end
 

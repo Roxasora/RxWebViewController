@@ -15,7 +15,7 @@
 @interface RxWebViewController ()<UIWebViewDelegate,UINavigationControllerDelegate,UINavigationBarDelegate,NJKWebViewProgressDelegate>
 
 @property (nonatomic)UIBarButtonItem* customBackBarItem;
-@property (nonatomic)UIBarButtonItem* closeBarItem;
+@property (nonatomic)UIBarButtonItem* closeButtonItem;
 
 @property (nonatomic)NJKWebViewProgress* progressProxy;
 @property (nonatomic)NJKWebViewProgressView* progressView;
@@ -228,16 +228,14 @@
         spaceButtonItem.width = -6.5;
         
         self.navigationController.interactivePopGestureRecognizer.enabled = NO;
-        [self.navigationItem setLeftBarButtonItems:@[self.closeBarItem] animated:NO];
+        [self.navigationItem setLeftBarButtonItems:@[self.closeButtonItem] animated:NO];
         
         //弃用customBackBarItem，使用原生backButtonItem
-//        [self.navigationItem setLeftBarButtonItems:@[spaceButtonItem,self.customBackBarItem,self.closeBarItem] animated:NO];
+//        [self.navigationItem setLeftBarButtonItems:@[spaceButtonItem,self.customBackBarItem,self.closeButtonItem] animated:NO];
     }else{
         self.navigationController.interactivePopGestureRecognizer.enabled = YES;
         [self.navigationItem setLeftBarButtonItems:nil];
     }
-    
-//    NSLog(@"%@",self.navigationItem.leftBarButtonItems);
 }
 
 #pragma mark - events handler
@@ -366,11 +364,11 @@
     return _customBackBarItem;
 }
 
--(UIBarButtonItem*)closeBarItem{
-    if (!_closeBarItem) {
-        _closeBarItem = [[UIBarButtonItem alloc] initWithTitle:@"关闭" style:UIBarButtonItemStylePlain target:self action:@selector(closeItemClicked)];
+-(UIBarButtonItem*)closeButtonItem{
+    if (!_closeButtonItem) {
+        _closeButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"关闭" style:UIBarButtonItemStylePlain target:self action:@selector(closeItemClicked)];
     }
-    return _closeBarItem;
+    return _closeButtonItem;
 }
 
 -(UIView*)swipingBackgoundView{
@@ -425,7 +423,11 @@
 }
 @end
 
-#pragma mark - implement the navigationController
+#pragma mark - implement the navigationController in category
+
+@interface UINavigationController (RxWebView)<UINavigationBarDelegate>
+
+@end
 
 @implementation UINavigationController (RxWebView)
 
@@ -434,6 +436,7 @@
 }
 
 //!make sure I managed the back item pop event
+//!这一步是截获系统 返回键 的事件，来自己处理
 -(BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem *)item{
     if ([self.viewControllers.lastObject class] == [RxWebViewController class]) {
         RxWebViewController* webVC = (RxWebViewController*)self.viewControllers.lastObject;
