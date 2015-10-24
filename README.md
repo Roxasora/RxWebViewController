@@ -1,4 +1,4 @@
-# Rxlabel
+# RxWebViewController
 
 ###it's a custom UIWebViewController that navigate like navigationController,just like wechat do.
 ###实现类似微信的webView导航效果，左滑返回上个网页，就像UINavigationController 
@@ -37,11 +37,11 @@ usage is simple
     	UIColor* barTintColor = [UIColor blueColor];
 		self.navigationController.navigationBar.tintColor = tintColor;
     	self.navigationController.navigationBar.barTintColor = barTintColor;
-    	[self.navigationController.navigationBar setTitleTextAttributes:@{                                                          										NSForegroundColorAttributeName:tintColor
+    	[self.navigationController.navigationBar setTitleTextAttributes:@{                                                          			NSForegroundColorAttributeName:tintColor
                                                                       }];
                                                                       
  这样来自定义你的navigationBar颜色，webViewController中会遵循此设置，如图
- ![image](http://img.hb.aicdn.com/3a291ebfe090a2b8bebde15e10e7217152af6e1cbb52-cRpmNk_fw658)
+ ![image](http://img.hb.aicdn.com/acb26e875aa8d63b17fdcc92724979306c440acbdbcc-EK1uKx_fw658)
  
  
  **也可以像微信那样在你的 navigationBar 中使用自定义的 backButtonBackgroundImage，如图**
