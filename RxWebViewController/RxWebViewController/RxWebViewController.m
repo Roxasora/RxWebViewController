@@ -240,9 +240,10 @@
 
 #pragma mark - events handler
 -(void)swipePanGestureHandler:(UIPanGestureRecognizer*)panGesture{
-    CGPoint translation = [panGesture translationInView:self.view];
-    CGPoint location = [panGesture locationInView:self.view];
-    //    NSLog(@"pan x%f,pan y",translation.x,translation.y);
+    CGPoint translation = [panGesture translationInView:self.webView];
+    CGPoint location = [panGesture locationInView:self.webView];
+    NSLog(@"pan x %f,pan y %f",translation.x,translation.y);
+    
     if (panGesture.state == UIGestureRecognizerStateBegan) {
         if (location.x <= 50 && translation.x > 0) {  //开始动画
             [self startPopSnapshotView];
@@ -421,7 +422,7 @@
 
 -(NJKWebViewProgressView*)progressView{
     if (!_progressView) {
-        CGFloat progressBarHeight = 2.0f;
+        CGFloat progressBarHeight = 3.0f;
         CGRect navigaitonBarBounds = self.navigationController.navigationBar.bounds;
 //        CGRect barFrame = CGRectMake(0, navigaitonBarBounds.size.height - progressBarHeight-0.5, navigaitonBarBounds.size.width, progressBarHeight);
         CGRect barFrame = CGRectMake(0, navigaitonBarBounds.size.height, navigaitonBarBounds.size.width, progressBarHeight);

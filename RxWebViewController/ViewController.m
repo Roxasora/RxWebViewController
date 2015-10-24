@@ -25,14 +25,20 @@
     [super viewDidLoad];
     
     self.title = @"RxWebViewController";
+    
     self.label.delegate = self;
-    self.label.text = @"长者，指年纪大、辈分高、德高望重的人。一般多用于对别人的尊称，也可用于自称。能被称为长者的人往往具有丰富的人生经验，可以帮助年轻人提高姿势水平 http://baidu.com";
+    self.label.text = @"长者，指年纪大、辈分高、德高望重的人。一般多用于对别人的尊称，也可用于自称。能被称为长者的人往往具有丰富的人生经验，可以帮助年轻人提高姿势水平 http://github.com";
     self.label.customUrlArray = @[
                                   @{
                                       @"scheme":@"baidu",
                                       @"color":@0X459df5,
                                       @"title":@"百度"
-                                  }
+                                  },
+                                  @{
+                                      @"scheme":@"github",
+                                      @"color":@0X333333,
+                                      @"title":@"Github"
+                                      }
                                   ];
     
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
@@ -41,7 +47,9 @@
                                                                       NSForegroundColorAttributeName:[UIColor whiteColor]
                                                                       }];
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:nil action:nil];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    //set custom back button image
+//    [[UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[UINavigationController class]]] setBackButtonBackgroundImage:[UIImage imageNamed:@"icon-nav-backButton-bg"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
 }
 
 -(void)RxLabel:(RxLabel *)label didDetectedTapLinkWithUrlStr:(NSString *)urlStr{
@@ -90,3 +98,5 @@
                                                                       }];
 }
 @end
+
+
