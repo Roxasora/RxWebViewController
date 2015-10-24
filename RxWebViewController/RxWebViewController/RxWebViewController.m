@@ -71,7 +71,7 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     
-    self.title = @"网页";
+    self.title = @"";
     self.view.backgroundColor = [UIColor whiteColor];
     
     //config navigation item
@@ -99,12 +99,12 @@
 
 #pragma mark - logic of push and pop snap shot views
 -(void)pushCurrentSnapshotViewWithRequest:(NSURLRequest*)request{
-    NSLog(@"push with request %@",request);
+//    NSLog(@"push with request %@",request);
     NSURLRequest* lastRequest = (NSURLRequest*)[[self.snapShotsArray lastObject] objectForKey:@"request"];
     
     //如果url是很奇怪的就不push
     if ([request.URL.absoluteString isEqualToString:@"about:blank"]) {
-        NSLog(@"about blank!! return");
+//        NSLog(@"about blank!! return");
         return;
     }
     //如果url一样就不进行push
@@ -119,7 +119,7 @@
        @"snapShotView":currentSnapShotView
        }
      ];
-    NSLog(@"now array count %d",self.snapShotsArray.count);
+//    NSLog(@"now array count %d",self.snapShotsArray.count);
 }
 
 -(void)startPopSnapshotView{
@@ -229,6 +229,8 @@
         
         self.navigationController.interactivePopGestureRecognizer.enabled = NO;
         [self.navigationItem setLeftBarButtonItems:@[self.closeBarItem] animated:NO];
+        
+        //弃用customBackBarItem，使用原生backButtonItem
 //        [self.navigationItem setLeftBarButtonItems:@[spaceButtonItem,self.customBackBarItem,self.closeBarItem] animated:NO];
     }else{
         self.navigationController.interactivePopGestureRecognizer.enabled = YES;
@@ -242,7 +244,7 @@
 -(void)swipePanGestureHandler:(UIPanGestureRecognizer*)panGesture{
     CGPoint translation = [panGesture translationInView:self.webView];
     CGPoint location = [panGesture locationInView:self.webView];
-    NSLog(@"pan x %f,pan y %f",translation.x,translation.y);
+//    NSLog(@"pan x %f,pan y %f",translation.x,translation.y);
     
     if (panGesture.state == UIGestureRecognizerStateBegan) {
         if (location.x <= 50 && translation.x > 0) {  //开始动画
@@ -265,12 +267,11 @@
 
 #pragma mark - webView delegate
 - (void)webViewDidStartLoad:(UIWebView *)webView {
-    NSLog(@"webview start load %d",webView.pageCount);
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
 }
 
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
-    NSLog(@"navigation type %d",navigationType);
+//    NSLog(@"navigation type %d",navigationType);
     switch (navigationType) {
         case UIWebViewNavigationTypeLinkClicked: {
             [self pushCurrentSnapshotViewWithRequest:request];
@@ -304,23 +305,16 @@
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
     [self updateNavigationItems];
+    NSString *theTitle=[webView stringByEvaluatingJavaScriptFromString:@"document.title"];
+    if (theTitle.length >= 10) {
+        theTitle = [[theTitle substringToIndex:9] stringByAppendingString:@"…"];
+    }
+    self.title = theTitle;
 //    [self.progressView setProgress:1 animated:NO];
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
-}
-
--(BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem *)item{
-    if (self.webView.canGoBack) {
-        [self.webView goBack];
-        NSLog(@"no pop");
-        return NO;
-    }else{
-        NSLog(@"can pop");
-        [self.navigationController popViewControllerAnimated:YES];
-        return YES;
-    }
 }
 
 #pragma mark - NJProgress delegate
@@ -365,9 +359,6 @@
         [backButton setImage:backItemImage forState:UIControlStateNormal];
         [backButton setImage:backItemHlImage forState:UIControlStateHighlighted];
         [backButton sizeToFit];
-        
-//        CGRect 
-        NSLog(@"%@",[NSValue valueWithCGRect:backButton.frame]);
         
         [backButton addTarget:self action:@selector(customBackItemClicked) forControlEvents:UIControlEventTouchUpInside];
         _customBackBarItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];

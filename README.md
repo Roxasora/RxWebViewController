@@ -6,7 +6,7 @@
 
 like the screen shot gif
 
-![image](http://img.hb.aicdn.com/2f0b4c69b8926b2ebf9dd21503abb5a2305aab58124b5d-GWa5HK_fw658)
+![image](http://img.hb.aicdn.com/c13d6827dfde42ba7ed7ba1a64c58c0a911efd2f126ca3-pys6eT_fw658)
 
 ### usage使用
 
@@ -31,7 +31,7 @@ usage is simple
                                 
                                 
 ####navigation bar tint color and back button style 导航栏的颜色和返回按钮样式
-导航栏中出现的 返回 和 关闭 ，均会继承你的 navigationController 中对 navigationBar 的设置，你可以这样：
+导航栏中出现的 返回 和 关闭 ，均会继承你的 navigationController 中对 navigationBar 的设置，比如：
 
 		UIColor* tintColor = [UIColor whiteColor];
     	UIColor* barTintColor = [UIColor blueColor];
@@ -40,10 +40,14 @@ usage is simple
     	[self.navigationController.navigationBar setTitleTextAttributes:@{                                                          			NSForegroundColorAttributeName:tintColor
                                                                       }];
                                                                       
- 这样来自定义你的navigationBar颜色，webViewController中会遵循此设置，如图
- ![image](http://img.hb.aicdn.com/acb26e875aa8d63b17fdcc92724979306c440acbdbcc-EK1uKx_fw658)
+ 这样来自定义你的navigationBar各控件颜色，webViewController中会遵循此设置，如图
+ ![image](http://img.hb.aicdn.com/4287d071d7fa4dd8e1276506ed904093a7489352da24-56cRLk_fw658)
  
  
  **也可以像微信那样在你的 navigationBar 中使用自定义的 backButtonBackgroundImage，如图**
  
  ![image](http://img.hb.aicdn.com/ab84843887791178ba8764b9bde04f4b34f338cc10f8e-1umnI5_fw658)
+ 
+ 
+###Thanks
+ **I used [NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress) to make navigation progress, it helps a lot**
