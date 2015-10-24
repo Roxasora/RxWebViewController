@@ -15,6 +15,15 @@
 		F53D31AC1BDA4FCA002322E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53D31AA1BDA4FCA002322E1 /* LaunchScreen.storyboard */; };
 		F53D31B71BDA4FCB002322E1 /* RxWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31B61BDA4FCB002322E1 /* RxWebViewControllerTests.m */; };
 		F53D31C21BDA4FCB002322E1 /* RxWebViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31C11BDA4FCB002322E1 /* RxWebViewControllerUITests.m */; };
+		F53D31D21BDA5064002322E1 /* RxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31D11BDA5064002322E1 /* RxWebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F53D31D81BDA508F002322E1 /* RxLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31D51BDA508F002322E1 /* RxLabel.m */; settings = {ASSET_TAGS = (); }; };
+		F53D31D91BDA508F002322E1 /* RxTextLinkTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31D71BDA508F002322E1 /* RxTextLinkTapView.m */; settings = {ASSET_TAGS = (); }; };
+		F53D31DD1BDA67A8002322E1 /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F53D31DC1BDA67A8002322E1 /* backItemImage@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F53D31DF1BDA6CFA002322E1 /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F53D31DE1BDA6CFA002322E1 /* backItemImage_hl@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F53D31E31BDA72C3002322E1 /* RxWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31E21BDA72C3002322E1 /* RxWebViewNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F53D31E91BDA840A002322E1 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31E61BDA840A002322E1 /* NJKWebViewProgress.m */; settings = {ASSET_TAGS = (); }; };
+		F53D31EA1BDA840A002322E1 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31E81BDA840A002322E1 /* NJKWebViewProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		F53D31EC1BDB339D002322E1 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53D31EB1BDB339D002322E1 /* Reveal.framework */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,21 @@
 		F53D31BD1BDA4FCB002322E1 /* RxWebViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxWebViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53D31C11BDA4FCB002322E1 /* RxWebViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RxWebViewControllerUITests.m; sourceTree = "<group>"; };
 		F53D31C31BDA4FCB002322E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53D31D01BDA5064002322E1 /* RxWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxWebViewController.h; path = RxWebViewController/RxWebViewController.h; sourceTree = "<group>"; };
+		F53D31D11BDA5064002322E1 /* RxWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RxWebViewController.m; path = RxWebViewController/RxWebViewController.m; sourceTree = "<group>"; };
+		F53D31D41BDA508F002322E1 /* RxLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxLabel.h; sourceTree = "<group>"; };
+		F53D31D51BDA508F002322E1 /* RxLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxLabel.m; sourceTree = "<group>"; };
+		F53D31D61BDA508F002322E1 /* RxTextLinkTapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxTextLinkTapView.h; sourceTree = "<group>"; };
+		F53D31D71BDA508F002322E1 /* RxTextLinkTapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxTextLinkTapView.m; sourceTree = "<group>"; };
+		F53D31DC1BDA67A8002322E1 /* backItemImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backItemImage@2x.png"; path = "RxWebViewController/backItemImage@2x.png"; sourceTree = "<group>"; };
+		F53D31DE1BDA6CFA002322E1 /* backItemImage_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backItemImage_hl@2x.png"; path = "RxWebViewController/backItemImage_hl@2x.png"; sourceTree = "<group>"; };
+		F53D31E11BDA72C3002322E1 /* RxWebViewNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewNavigationViewController.h; sourceTree = "<group>"; };
+		F53D31E21BDA72C3002322E1 /* RxWebViewNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewNavigationViewController.m; sourceTree = "<group>"; };
+		F53D31E51BDA840A002322E1 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		F53D31E61BDA840A002322E1 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		F53D31E71BDA840A002322E1 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		F53D31E81BDA840A002322E1 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		F53D31EB1BDB339D002322E1 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53D31EC1BDB339D002322E1 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,7 @@
 		F53D31901BDA4FCA002322E1 = {
 			isa = PBXGroup;
 			children = (
+				F53D31EB1BDB339D002322E1 /* Reveal.framework */,
 				F53D319B1BDA4FCA002322E1 /* RxWebViewController */,
 				F53D31B51BDA4FCB002322E1 /* RxWebViewControllerTests */,
 				F53D31C01BDA4FCB002322E1 /* RxWebViewControllerUITests */,
@@ -101,6 +127,8 @@
 		F53D319B1BDA4FCA002322E1 /* RxWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F53D31D31BDA508F002322E1 /* RxLabel */,
+				F53D31CF1BDA503C002322E1 /* RxWebViewController */,
 				F53D319F1BDA4FCA002322E1 /* AppDelegate.h */,
 				F53D31A01BDA4FCA002322E1 /* AppDelegate.m */,
 				F53D31A21BDA4FCA002322E1 /* ViewController.h */,
@@ -138,6 +166,43 @@
 				F53D31C31BDA4FCB002322E1 /* Info.plist */,
 			);
 			path = RxWebViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		F53D31CF1BDA503C002322E1 /* RxWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F53D31E41BDA840A002322E1 /* NJKWebViewProgress */,
+				F53D31D01BDA5064002322E1 /* RxWebViewController.h */,
+				F53D31D11BDA5064002322E1 /* RxWebViewController.m */,
+				F53D31DE1BDA6CFA002322E1 /* backItemImage_hl@2x.png */,
+				F53D31DC1BDA67A8002322E1 /* backItemImage@2x.png */,
+				F53D31E11BDA72C3002322E1 /* RxWebViewNavigationViewController.h */,
+				F53D31E21BDA72C3002322E1 /* RxWebViewNavigationViewController.m */,
+			);
+			name = RxWebViewController;
+			sourceTree = "<group>";
+		};
+		F53D31D31BDA508F002322E1 /* RxLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F53D31D41BDA508F002322E1 /* RxLabel.h */,
+				F53D31D51BDA508F002322E1 /* RxLabel.m */,
+				F53D31D61BDA508F002322E1 /* RxTextLinkTapView.h */,
+				F53D31D71BDA508F002322E1 /* RxTextLinkTapView.m */,
+			);
+			path = RxLabel;
+			sourceTree = "<group>";
+		};
+		F53D31E41BDA840A002322E1 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F53D31E51BDA840A002322E1 /* NJKWebViewProgress.h */,
+				F53D31E61BDA840A002322E1 /* NJKWebViewProgress.m */,
+				F53D31E71BDA840A002322E1 /* NJKWebViewProgressView.h */,
+				F53D31E81BDA840A002322E1 /* NJKWebViewProgressView.m */,
+			);
+			name = NJKWebViewProgress;
+			path = RxWebViewController/NJKWebViewProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53D31DD1BDA67A8002322E1 /* backItemImage@2x.png in Resources */,
+				F53D31DF1BDA6CFA002322E1 /* backItemImage_hl@2x.png in Resources */,
 				F53D31AC1BDA4FCA002322E1 /* LaunchScreen.storyboard in Resources */,
 				F53D31A91BDA4FCA002322E1 /* Assets.xcassets in Resources */,
 				F53D31A71BDA4FCA002322E1 /* Main.storyboard in Resources */,
@@ -270,9 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53D31E91BDA840A002322E1 /* NJKWebViewProgress.m in Sources */,
 				F53D31A41BDA4FCA002322E1 /* ViewController.m in Sources */,
+				F53D31E31BDA72C3002322E1 /* RxWebViewNavigationViewController.m in Sources */,
 				F53D31A11BDA4FCA002322E1 /* AppDelegate.m in Sources */,
 				F53D319E1BDA4FCA002322E1 /* main.m in Sources */,
+				F53D31D21BDA5064002322E1 /* RxWebViewController.m in Sources */,
+				F53D31D81BDA508F002322E1 /* RxLabel.m in Sources */,
+				F53D31EA1BDA840A002322E1 /* NJKWebViewProgressView.m in Sources */,
+				F53D31D91BDA508F002322E1 /* RxTextLinkTapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +486,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RxWebViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roxasora.RxWebViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,8 +508,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RxWebViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roxasora.RxWebViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,6 +593,7 @@
 				F53D31C81BDA4FCB002322E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F53D31C91BDA4FCB002322E1 /* Build configuration list for PBXNativeTarget "RxWebViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +602,7 @@
 				F53D31CB1BDA4FCB002322E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F53D31CC1BDA4FCB002322E1 /* Build configuration list for PBXNativeTarget "RxWebViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +611,7 @@
 				F53D31CE1BDA4FCB002322E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
