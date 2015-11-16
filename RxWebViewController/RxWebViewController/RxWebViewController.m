@@ -446,9 +446,11 @@
             //!make sure the back indicator view alpha back to 1
             [[self.navigationBar subviews] lastObject].alpha = 1;
             return NO;
+        }else{
+            [self popViewControllerAnimated:YES];
+            return YES;
         }
     }
-    [self popViewControllerAnimated:YES];
     return YES;
 }
 
