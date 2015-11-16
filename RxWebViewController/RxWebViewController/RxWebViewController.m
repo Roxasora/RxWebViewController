@@ -304,7 +304,7 @@
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
     [self updateNavigationItems];
     NSString *theTitle=[webView stringByEvaluatingJavaScriptFromString:@"document.title"];
-    if (theTitle.length >= 10) {
+    if (theTitle.length > 10) {
         theTitle = [[theTitle substringToIndex:9] stringByAppendingString:@"…"];
     }
     self.title = theTitle;
@@ -453,5 +453,6 @@
     }
     return YES;
 }
+
 
 @end
