@@ -1,5 +1,11 @@
 # RxWebViewController
 
+##更新-15.12.9 为了解决普通 viewController 会出现的各种 pop 问题，弃用之前的 category 形式，改为子类化了 UINavigationController，所以大家需要继承 ```RxWebViewNavigationViewController``` 作为你的 navigationController！
+
+###Update - 15.12.9 In order to solve the issues of pop normal viewControllers ,I've deprecated the category in RXWebViewController and added the subclass of UINavigationController, so you need subclass the ```RxWebViewNavigationViewController``` as your custom navigationController
+
+----
+
 ###it's a custom UIWebViewController that navigate like navigationController,just like wechat do.
 ###实现类似微信的webView导航效果，左滑返回上个网页，就像UINavigationController 
 
@@ -22,6 +28,16 @@ You just need to drag/copy the "RxWebViewController" folder and drop in your pro
 -------
 
 usage is simple
+   		
+####-------WARNING-------- first,you should subclass a navigationController
+
+		#import "RxWebViewNavigationViewController.h"
+
+		@interface myNavigationViewController : RxWebViewNavigationViewController
+
+		@end
+   		
+then use webviewController as normal viewController
    		
    		NSString* urlStr = @"http://github.com";
 		RxWebViewController* webViewController = [[RxWebViewController alloc] initWithUrl:[NSURL URLWithString:urlStr]];

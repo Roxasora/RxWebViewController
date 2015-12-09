@@ -28,6 +28,7 @@
 		F567E1D31C181277000C2688 /* myNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E1D11C181277000C2688 /* myNormalViewController.m */; };
 		F567E1D41C181277000C2688 /* myNormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F567E1D21C181277000C2688 /* myNormalViewController.xib */; };
 		F567E1D71C1814E9000C2688 /* myNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E1D61C1814E9000C2688 /* myNavigationViewController.m */; };
+		F567E1DA1C1821DA000C2688 /* myNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E1D91C1821DA000C2688 /* myNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,8 @@
 		F567E1D21C181277000C2688 /* myNormalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myNormalViewController.xib; sourceTree = "<group>"; };
 		F567E1D51C1814E9000C2688 /* myNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myNavigationViewController.h; sourceTree = "<group>"; };
 		F567E1D61C1814E9000C2688 /* myNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myNavigationViewController.m; sourceTree = "<group>"; };
+		F567E1D81C1821DA000C2688 /* myNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myNavigationViewController.h; sourceTree = "<group>"; };
+		F567E1D91C1821DA000C2688 /* myNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				F53D31CF1BDA503C002322E1 /* RxWebViewController */,
 				F53D319F1BDA4FCA002322E1 /* AppDelegate.h */,
 				F53D31A01BDA4FCA002322E1 /* AppDelegate.m */,
+				F567E1D81C1821DA000C2688 /* myNavigationViewController.h */,
+				F567E1D91C1821DA000C2688 /* myNavigationViewController.m */,
 				F53D31A21BDA4FCA002322E1 /* ViewController.h */,
 				F53D31A31BDA4FCA002322E1 /* ViewController.m */,
 				F53D31A51BDA4FCA002322E1 /* Main.storyboard */,
@@ -355,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F567E1DA1C1821DA000C2688 /* myNavigationViewController.m in Sources */,
 				F53D31E91BDA840A002322E1 /* NJKWebViewProgress.m in Sources */,
 				F567E1D31C181277000C2688 /* myNormalViewController.m in Sources */,
 				F567E1D71C1814E9000C2688 /* myNavigationViewController.m in Sources */,
