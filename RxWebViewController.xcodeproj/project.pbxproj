@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F511A4781BDB7B0A00C012CB /* icon-140.png in Resources */ = {isa = PBXBuildFile; fileRef = F511A4771BDB7B0A00C012CB /* icon-140.png */; settings = {ASSET_TAGS = (); }; };
+		F511A4781BDB7B0A00C012CB /* icon-140.png in Resources */ = {isa = PBXBuildFile; fileRef = F511A4771BDB7B0A00C012CB /* icon-140.png */; };
 		F53D319E1BDA4FCA002322E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D319D1BDA4FCA002322E1 /* main.m */; };
 		F53D31A11BDA4FCA002322E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31A01BDA4FCA002322E1 /* AppDelegate.m */; };
 		F53D31A41BDA4FCA002322E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31A31BDA4FCA002322E1 /* ViewController.m */; };
@@ -16,15 +16,18 @@
 		F53D31AC1BDA4FCA002322E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53D31AA1BDA4FCA002322E1 /* LaunchScreen.storyboard */; };
 		F53D31B71BDA4FCB002322E1 /* RxWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31B61BDA4FCB002322E1 /* RxWebViewControllerTests.m */; };
 		F53D31C21BDA4FCB002322E1 /* RxWebViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31C11BDA4FCB002322E1 /* RxWebViewControllerUITests.m */; };
-		F53D31D21BDA5064002322E1 /* RxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31D11BDA5064002322E1 /* RxWebViewController.m */; settings = {ASSET_TAGS = (); }; };
-		F53D31D81BDA508F002322E1 /* RxLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31D51BDA508F002322E1 /* RxLabel.m */; settings = {ASSET_TAGS = (); }; };
-		F53D31D91BDA508F002322E1 /* RxTextLinkTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31D71BDA508F002322E1 /* RxTextLinkTapView.m */; settings = {ASSET_TAGS = (); }; };
-		F53D31DD1BDA67A8002322E1 /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F53D31DC1BDA67A8002322E1 /* backItemImage@2x.png */; settings = {ASSET_TAGS = (); }; };
-		F53D31DF1BDA6CFA002322E1 /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F53D31DE1BDA6CFA002322E1 /* backItemImage_hl@2x.png */; settings = {ASSET_TAGS = (); }; };
-		F53D31E31BDA72C3002322E1 /* RxWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31E21BDA72C3002322E1 /* RxWebViewNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		F53D31E91BDA840A002322E1 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31E61BDA840A002322E1 /* NJKWebViewProgress.m */; settings = {ASSET_TAGS = (); }; };
-		F53D31EA1BDA840A002322E1 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31E81BDA840A002322E1 /* NJKWebViewProgressView.m */; settings = {ASSET_TAGS = (); }; };
-		F53D31EC1BDB339D002322E1 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53D31EB1BDB339D002322E1 /* Reveal.framework */; settings = {ASSET_TAGS = (); }; };
+		F53D31D21BDA5064002322E1 /* RxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31D11BDA5064002322E1 /* RxWebViewController.m */; };
+		F53D31D81BDA508F002322E1 /* RxLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31D51BDA508F002322E1 /* RxLabel.m */; };
+		F53D31D91BDA508F002322E1 /* RxTextLinkTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31D71BDA508F002322E1 /* RxTextLinkTapView.m */; };
+		F53D31DD1BDA67A8002322E1 /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F53D31DC1BDA67A8002322E1 /* backItemImage@2x.png */; };
+		F53D31DF1BDA6CFA002322E1 /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F53D31DE1BDA6CFA002322E1 /* backItemImage_hl@2x.png */; };
+		F53D31E31BDA72C3002322E1 /* RxWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31E21BDA72C3002322E1 /* RxWebViewNavigationViewController.m */; };
+		F53D31E91BDA840A002322E1 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31E61BDA840A002322E1 /* NJKWebViewProgress.m */; };
+		F53D31EA1BDA840A002322E1 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53D31E81BDA840A002322E1 /* NJKWebViewProgressView.m */; };
+		F53D31EC1BDB339D002322E1 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53D31EB1BDB339D002322E1 /* Reveal.framework */; };
+		F567E1D31C181277000C2688 /* myNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E1D11C181277000C2688 /* myNormalViewController.m */; };
+		F567E1D41C181277000C2688 /* myNormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F567E1D21C181277000C2688 /* myNormalViewController.xib */; };
+		F567E1D71C1814E9000C2688 /* myNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E1D61C1814E9000C2688 /* myNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,11 @@
 		F53D31E71BDA840A002322E1 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
 		F53D31E81BDA840A002322E1 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
 		F53D31EB1BDB339D002322E1 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		F567E1D01C181277000C2688 /* myNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myNormalViewController.h; sourceTree = "<group>"; };
+		F567E1D11C181277000C2688 /* myNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myNormalViewController.m; sourceTree = "<group>"; };
+		F567E1D21C181277000C2688 /* myNormalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myNormalViewController.xib; sourceTree = "<group>"; };
+		F567E1D51C1814E9000C2688 /* myNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myNavigationViewController.h; sourceTree = "<group>"; };
+		F567E1D61C1814E9000C2688 /* myNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,11 @@
 		F53D31901BDA4FCA002322E1 = {
 			isa = PBXGroup;
 			children = (
+				F567E1D51C1814E9000C2688 /* myNavigationViewController.h */,
+				F567E1D61C1814E9000C2688 /* myNavigationViewController.m */,
+				F567E1D01C181277000C2688 /* myNormalViewController.h */,
+				F567E1D11C181277000C2688 /* myNormalViewController.m */,
+				F567E1D21C181277000C2688 /* myNormalViewController.xib */,
 				F53D31EB1BDB339D002322E1 /* Reveal.framework */,
 				F53D319B1BDA4FCA002322E1 /* RxWebViewController */,
 				F53D31B51BDA4FCB002322E1 /* RxWebViewControllerTests */,
@@ -311,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F567E1D41C181277000C2688 /* myNormalViewController.xib in Resources */,
 				F53D31DD1BDA67A8002322E1 /* backItemImage@2x.png in Resources */,
 				F53D31DF1BDA6CFA002322E1 /* backItemImage_hl@2x.png in Resources */,
 				F511A4781BDB7B0A00C012CB /* icon-140.png in Resources */,
@@ -342,6 +356,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F53D31E91BDA840A002322E1 /* NJKWebViewProgress.m in Sources */,
+				F567E1D31C181277000C2688 /* myNormalViewController.m in Sources */,
+				F567E1D71C1814E9000C2688 /* myNavigationViewController.m in Sources */,
 				F53D31A41BDA4FCA002322E1 /* ViewController.m in Sources */,
 				F53D31E31BDA72C3002322E1 /* RxWebViewNavigationViewController.m in Sources */,
 				F53D31A11BDA4FCA002322E1 /* AppDelegate.m in Sources */,

@@ -421,38 +421,5 @@
     }
     return _progressView;
 }
-@end
-
-#pragma mark - implement the navigationController in category
-
-@interface UINavigationController (RxWebView)<UINavigationBarDelegate>
-
-@end
-
-@implementation UINavigationController (RxWebView)
-
--(UIStatusBarStyle)preferredStatusBarStyle{
-    return UIStatusBarStyleLightContent;
-}
-
-//!make sure I managed the back item pop event
-//!这一步是截获系统 返回键 的事件，来自己处理
--(BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem *)item{
-    if ([self.viewControllers.lastObject class] == [RxWebViewController class]) {
-        RxWebViewController* webVC = (RxWebViewController*)self.viewControllers.lastObject;
-        if (webVC.webView.canGoBack) {
-            [webVC.webView goBack];
-            
-            //!make sure the back indicator view alpha back to 1
-            [[self.navigationBar subviews] lastObject].alpha = 1;
-            return NO;
-        }else{
-            [self popViewControllerAnimated:YES];
-            return YES;
-        }
-    }
-    return YES;
-}
-
 
 @end

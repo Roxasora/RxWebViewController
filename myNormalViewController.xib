@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="myNormalViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fyK-f9-R1G">
+                    <rect key="frame" x="283" y="285" width="34" height="30"/>
+                    <state key="normal" title="push"/>
+                    <connections>
+                        <action selector="btnClicked:" destination="-1" eventType="touchUpInside" id="Ygh-Bq-JOn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wet-mh-Yxx">
+                    <rect key="frame" x="285" y="323" width="30" height="30"/>
+                    <state key="normal" title="pop"/>
+                    <connections>
+                        <action selector="popBtnClicked:" destination="-1" eventType="touchUpInside" id="6j8-fn-Yse"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fyK-f9-R1G" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="AnR-1g-4WF"/>
+                <constraint firstItem="wet-mh-Yxx" firstAttribute="top" secondItem="fyK-f9-R1G" secondAttribute="bottom" constant="10" id="ezr-Oz-rzT"/>
+                <constraint firstItem="fyK-f9-R1G" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hcE-p5-QOM"/>
+                <constraint firstItem="wet-mh-Yxx" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jv9-d7-xhi"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

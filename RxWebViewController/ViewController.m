@@ -9,13 +9,16 @@
 #import "ViewController.h"
 #import "RxLabel.h"
 #import "RxWebViewController.h"
+#import "myNormalViewController.h"
 
 #define UIColorFromHexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface ViewController ()<RxLabelDelegate>
 
 @property (strong, nonatomic) IBOutlet RxLabel *label;
+
 - (IBAction)navigationStyleSegmentChanged:(id)sender;
+- (IBAction)addItemClicked:(id)sender;
 
 @end
 
@@ -27,7 +30,7 @@
     self.title = @"RxWebViewController";
     
     self.label.delegate = self;
-    self.label.text = @"长者，指年纪大、辈分高、德高望重的人。一般多用于对别人的尊称，也可用于自称。能被称为长者的人往往具有丰富的人生经验，可以帮助年轻人提高姿势水平 http://github.com";
+    self.label.text = @"长者，指年纪大、辈分高、德高望重的人。一般多用于对别人的尊称，也可用于自称。能被称为长者的人往往具有丰富的人生经验，可以帮助年轻人提高姿势水平 http://github.com/roxasora";
     self.label.customUrlArray = @[
                                   @{
                                       @"scheme":@"baidu",
@@ -97,6 +100,12 @@
                                                                       NSForegroundColorAttributeName:tintColor
                                                                       }];
 }
+
+- (IBAction)addItemClicked:(id)sender {
+    myNormalViewController* vc = [[myNormalViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 @end
 
 

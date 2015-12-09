@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="f6J-Gt-hc5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="f6J-Gt-hc5">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--RxWebViewController-->
@@ -12,7 +12,7 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="ViewController" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -49,7 +49,13 @@
                             <constraint firstItem="2EF-2U-UUy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="tbn-RM-dlf"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="rRb-fQ-G7C"/>
+                    <navigationItem key="navigationItem" id="rRb-fQ-G7C">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="KlZ-Ma-piF">
+                            <connections>
+                                <action selector="addItemClicked:" destination="BYZ-38-t0r" id="1NU-73-ETH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="label" destination="2EF-2U-UUy" id="m8E-ZM-ySV"/>
@@ -59,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="1135" y="380"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Rx Web View Navigation View Controller-->
         <scene sceneID="BNI-Fc-N3e">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f6J-Gt-hc5" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f6J-Gt-hc5" customClass="RxWebViewNavigationViewController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EcN-dP-Pot">
