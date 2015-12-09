@@ -1,8 +1,8 @@
 # RxWebViewController
 
-##更新-15.12.9 为了解决普通 viewController 会出现的各种 pop 问题，弃用之前的 category 形式，改为子类化了 UINavigationController，所以大家需要继承 ```RxWebViewNavigationViewController``` 作为你的 navigationController！
+####更新-15.12.9 为了解决普通 viewController 会出现的各种 pop 问题，弃用之前的 category 形式，改为子类化了 UINavigationController，所以大家需要继承 ```RxWebViewNavigationViewController``` 作为你的 navigationController！
 
-###Update - 15.12.9 In order to solve the issues of pop normal viewControllers ,I've deprecated the category in RXWebViewController and added the subclass of UINavigationController, so you need subclass the ```RxWebViewNavigationViewController``` as your custom navigationController
+####Update - 15.12.9 In order to solve the issues of pop normal viewControllers ,I've deprecated the category in RXWebViewController and added the subclass of UINavigationController, so you need subclass the ```RxWebViewNavigationViewController``` as your custom navigationController
 
 ----
 
