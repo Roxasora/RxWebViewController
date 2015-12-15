@@ -30,6 +30,7 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         [self initProperties];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setNeedsDisplay) name:UIDeviceOrientationDidChangeNotification object:nil];
     }
     return self;
 }

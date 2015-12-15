@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F53D31981BDA4FCA002322E1"
-               BuildableName = "RxWebViewController.app"
-               BlueprintName = "RxWebViewController"
-               ReferencedContainer = "container:RxWebViewController.xcodeproj">
+               BuildableName = "RxWebViewControllerTest.app"
+               BlueprintName = "RxWebViewControllerTest"
+               ReferencedContainer = "container:RxWebViewControllerTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F53D31B11BDA4FCB002322E1"
-               BuildableName = "RxWebViewControllerTests.xctest"
-               BlueprintName = "RxWebViewControllerTests"
-               ReferencedContainer = "container:RxWebViewController.xcodeproj">
+               BuildableName = "RxWebViewControllerTest.xctest"
+               BlueprintName = "RxWebViewControllerTestTests"
+               ReferencedContainer = "container:RxWebViewControllerTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F53D31BC1BDA4FCB002322E1"
-               BuildableName = "RxWebViewControllerUITests.xctest"
-               BlueprintName = "RxWebViewControllerUITests"
-               ReferencedContainer = "container:RxWebViewController.xcodeproj">
+               BuildableName = "RxWebViewControllerTest.xctest"
+               BlueprintName = "RxWebViewControllerTestUITests"
+               ReferencedContainer = "container:RxWebViewControllerTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F53D31981BDA4FCA002322E1"
-            BuildableName = "RxWebViewController.app"
-            BlueprintName = "RxWebViewController"
-            ReferencedContainer = "container:RxWebViewController.xcodeproj">
+            BuildableName = "RxWebViewControllerTest.app"
+            BlueprintName = "RxWebViewControllerTest"
+            ReferencedContainer = "container:RxWebViewControllerTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F53D31981BDA4FCA002322E1"
-            BuildableName = "RxWebViewController.app"
-            BlueprintName = "RxWebViewController"
-            ReferencedContainer = "container:RxWebViewController.xcodeproj">
+            BuildableName = "RxWebViewControllerTest.app"
+            BlueprintName = "RxWebViewControllerTest"
+            ReferencedContainer = "container:RxWebViewControllerTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F53D31981BDA4FCA002322E1"
-            BuildableName = "RxWebViewController.app"
-            BlueprintName = "RxWebViewController"
-            ReferencedContainer = "container:RxWebViewController.xcodeproj">
+            BuildableName = "RxWebViewControllerTest.app"
+            BlueprintName = "RxWebViewControllerTest"
+            ReferencedContainer = "container:RxWebViewControllerTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
