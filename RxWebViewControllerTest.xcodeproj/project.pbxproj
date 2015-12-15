@@ -19,15 +19,15 @@
 		F59CDEA71C1FBFB9008B5358 /* myNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE8B1C1FBFB9008B5358 /* myNavigationViewController.m */; };
 		F59CDEA81C1FBFB9008B5358 /* RxLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE8E1C1FBFB9008B5358 /* RxLabel.m */; };
 		F59CDEA91C1FBFB9008B5358 /* RxTextLinkTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE901C1FBFB9008B5358 /* RxTextLinkTapView.m */; };
-		F59CDEAA1C1FBFB9008B5358 /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F59CDE921C1FBFB9008B5358 /* backItemImage@2x.png */; };
-		F59CDEAB1C1FBFB9008B5358 /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F59CDE931C1FBFB9008B5358 /* backItemImage_hl@2x.png */; };
-		F59CDEAC1C1FBFB9008B5358 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE961C1FBFB9008B5358 /* NJKWebViewProgress.m */; };
-		F59CDEAD1C1FBFB9008B5358 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE981C1FBFB9008B5358 /* NJKWebViewProgressView.m */; };
-		F59CDEAE1C1FBFB9008B5358 /* RxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE9A1C1FBFB9008B5358 /* RxWebViewController.m */; };
 		F59CDEB01C1FBFB9008B5358 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE9E1C1FBFB9008B5358 /* ViewController.m */; };
-		F59CDEB31C1FBFEF008B5358 /* RxWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEB21C1FBFEF008B5358 /* RxWebViewNavigationViewController.m */; };
 		F59CDEB71C1FC06B008B5358 /* myNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEB51C1FC06B008B5358 /* myNormalViewController.m */; };
 		F59CDEB81C1FC06B008B5358 /* myNormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59CDEB61C1FC06B008B5358 /* myNormalViewController.xib */; };
+		F59CDEC51C1FC6AE008B5358 /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F59CDEBA1C1FC6AE008B5358 /* backItemImage@2x.png */; };
+		F59CDEC61C1FC6AE008B5358 /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F59CDEBB1C1FC6AE008B5358 /* backItemImage_hl@2x.png */; };
+		F59CDEC71C1FC6AE008B5358 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEBE1C1FC6AE008B5358 /* NJKWebViewProgress.m */; };
+		F59CDEC81C1FC6AE008B5358 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEC01C1FC6AE008B5358 /* NJKWebViewProgressView.m */; };
+		F59CDEC91C1FC6AE008B5358 /* RxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEC21C1FC6AE008B5358 /* RxWebViewController.m */; };
+		F59CDECA1C1FC6AE008B5358 /* RxWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEC41C1FC6AE008B5358 /* RxWebViewNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,21 +48,21 @@
 		F59CDE8E1C1FBFB9008B5358 /* RxLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxLabel.m; sourceTree = "<group>"; };
 		F59CDE8F1C1FBFB9008B5358 /* RxTextLinkTapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxTextLinkTapView.h; sourceTree = "<group>"; };
 		F59CDE901C1FBFB9008B5358 /* RxTextLinkTapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxTextLinkTapView.m; sourceTree = "<group>"; };
-		F59CDE921C1FBFB9008B5358 /* backItemImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage@2x.png"; sourceTree = "<group>"; };
-		F59CDE931C1FBFB9008B5358 /* backItemImage_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage_hl@2x.png"; sourceTree = "<group>"; };
-		F59CDE951C1FBFB9008B5358 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
-		F59CDE961C1FBFB9008B5358 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
-		F59CDE971C1FBFB9008B5358 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
-		F59CDE981C1FBFB9008B5358 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
-		F59CDE991C1FBFB9008B5358 /* RxWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewController.h; sourceTree = "<group>"; };
-		F59CDE9A1C1FBFB9008B5358 /* RxWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewController.m; sourceTree = "<group>"; };
 		F59CDE9D1C1FBFB9008B5358 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F59CDE9E1C1FBFB9008B5358 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F59CDEB11C1FBFEF008B5358 /* RxWebViewNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewNavigationViewController.h; sourceTree = "<group>"; };
-		F59CDEB21C1FBFEF008B5358 /* RxWebViewNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewNavigationViewController.m; sourceTree = "<group>"; };
 		F59CDEB41C1FC06B008B5358 /* myNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myNormalViewController.h; sourceTree = "<group>"; };
 		F59CDEB51C1FC06B008B5358 /* myNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myNormalViewController.m; sourceTree = "<group>"; };
 		F59CDEB61C1FC06B008B5358 /* myNormalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myNormalViewController.xib; sourceTree = "<group>"; };
+		F59CDEBA1C1FC6AE008B5358 /* backItemImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage@2x.png"; sourceTree = "<group>"; };
+		F59CDEBB1C1FC6AE008B5358 /* backItemImage_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage_hl@2x.png"; sourceTree = "<group>"; };
+		F59CDEBD1C1FC6AE008B5358 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		F59CDEBE1C1FC6AE008B5358 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		F59CDEBF1C1FC6AE008B5358 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		F59CDEC01C1FC6AE008B5358 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		F59CDEC11C1FC6AE008B5358 /* RxWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewController.h; sourceTree = "<group>"; };
+		F59CDEC21C1FC6AE008B5358 /* RxWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewController.m; sourceTree = "<group>"; };
+		F59CDEC31C1FC6AE008B5358 /* RxWebViewNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewNavigationViewController.h; sourceTree = "<group>"; };
+		F59CDEC41C1FC6AE008B5358 /* RxWebViewNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				F53D31EB1BDB339D002322E1 /* Reveal.framework */,
+				F59CDEB91C1FC6AE008B5358 /* RxWebViewController */,
 				F59CDE7E1C1FBFB9008B5358 /* RxWebViewControllerTest */,
 				F53D319A1BDA4FCA002322E1 /* Products */,
 			);
@@ -114,7 +115,6 @@
 				F59CDE881C1FBFB9008B5358 /* Info.plist */,
 				F59CDE891C1FBFB9008B5358 /* main.m */,
 				F59CDE8C1C1FBFB9008B5358 /* RxLabel */,
-				F59CDE911C1FBFB9008B5358 /* RxWebViewController */,
 			);
 			path = RxWebViewControllerTest;
 			sourceTree = "<group>";
@@ -130,27 +130,27 @@
 			path = RxLabel;
 			sourceTree = "<group>";
 		};
-		F59CDE911C1FBFB9008B5358 /* RxWebViewController */ = {
+		F59CDEB91C1FC6AE008B5358 /* RxWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F59CDE921C1FBFB9008B5358 /* backItemImage@2x.png */,
-				F59CDE931C1FBFB9008B5358 /* backItemImage_hl@2x.png */,
-				F59CDE941C1FBFB9008B5358 /* NJKWebViewProgress */,
-				F59CDE991C1FBFB9008B5358 /* RxWebViewController.h */,
-				F59CDE9A1C1FBFB9008B5358 /* RxWebViewController.m */,
-				F59CDEB11C1FBFEF008B5358 /* RxWebViewNavigationViewController.h */,
-				F59CDEB21C1FBFEF008B5358 /* RxWebViewNavigationViewController.m */,
+				F59CDEBA1C1FC6AE008B5358 /* backItemImage@2x.png */,
+				F59CDEBB1C1FC6AE008B5358 /* backItemImage_hl@2x.png */,
+				F59CDEBC1C1FC6AE008B5358 /* NJKWebViewProgress */,
+				F59CDEC11C1FC6AE008B5358 /* RxWebViewController.h */,
+				F59CDEC21C1FC6AE008B5358 /* RxWebViewController.m */,
+				F59CDEC31C1FC6AE008B5358 /* RxWebViewNavigationViewController.h */,
+				F59CDEC41C1FC6AE008B5358 /* RxWebViewNavigationViewController.m */,
 			);
 			path = RxWebViewController;
 			sourceTree = "<group>";
 		};
-		F59CDE941C1FBFB9008B5358 /* NJKWebViewProgress */ = {
+		F59CDEBC1C1FC6AE008B5358 /* NJKWebViewProgress */ = {
 			isa = PBXGroup;
 			children = (
-				F59CDE951C1FBFB9008B5358 /* NJKWebViewProgress.h */,
-				F59CDE961C1FBFB9008B5358 /* NJKWebViewProgress.m */,
-				F59CDE971C1FBFB9008B5358 /* NJKWebViewProgressView.h */,
-				F59CDE981C1FBFB9008B5358 /* NJKWebViewProgressView.m */,
+				F59CDEBD1C1FC6AE008B5358 /* NJKWebViewProgress.h */,
+				F59CDEBE1C1FC6AE008B5358 /* NJKWebViewProgress.m */,
+				F59CDEBF1C1FC6AE008B5358 /* NJKWebViewProgressView.h */,
+				F59CDEC01C1FC6AE008B5358 /* NJKWebViewProgressView.m */,
 			);
 			path = NJKWebViewProgress;
 			sourceTree = "<group>";
@@ -216,9 +216,9 @@
 				F59CDEA01C1FBFB9008B5358 /* Assets.xcassets in Resources */,
 				F59CDEA41C1FBFB9008B5358 /* icon-140.png in Resources */,
 				F59CDEA31C1FBFB9008B5358 /* demo.gif in Resources */,
-				F59CDEAA1C1FBFB9008B5358 /* backItemImage@2x.png in Resources */,
+				F59CDEC51C1FC6AE008B5358 /* backItemImage@2x.png in Resources */,
 				F59CDEB81C1FC06B008B5358 /* myNormalViewController.xib in Resources */,
-				F59CDEAB1C1FBFB9008B5358 /* backItemImage_hl@2x.png in Resources */,
+				F59CDEC61C1FC6AE008B5358 /* backItemImage_hl@2x.png in Resources */,
 				F59CDEA21C1FBFB9008B5358 /* Main.storyboard in Resources */,
 				F59CDEA51C1FBFB9008B5358 /* Info.plist in Resources */,
 			);
@@ -231,17 +231,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F59CDEAC1C1FBFB9008B5358 /* NJKWebViewProgress.m in Sources */,
+				F59CDEC71C1FC6AE008B5358 /* NJKWebViewProgress.m in Sources */,
 				F59CDEA61C1FBFB9008B5358 /* main.m in Sources */,
 				F59CDE9F1C1FBFB9008B5358 /* AppDelegate.m in Sources */,
 				F59CDEA81C1FBFB9008B5358 /* RxLabel.m in Sources */,
 				F59CDEB01C1FBFB9008B5358 /* ViewController.m in Sources */,
-				F59CDEB31C1FBFEF008B5358 /* RxWebViewNavigationViewController.m in Sources */,
 				F59CDEA71C1FBFB9008B5358 /* myNavigationViewController.m in Sources */,
-				F59CDEAD1C1FBFB9008B5358 /* NJKWebViewProgressView.m in Sources */,
+				F59CDECA1C1FC6AE008B5358 /* RxWebViewNavigationViewController.m in Sources */,
 				F59CDEB71C1FC06B008B5358 /* myNormalViewController.m in Sources */,
+				F59CDEC81C1FC6AE008B5358 /* NJKWebViewProgressView.m in Sources */,
 				F59CDEA91C1FBFB9008B5358 /* RxTextLinkTapView.m in Sources */,
-				F59CDEAE1C1FBFB9008B5358 /* RxWebViewController.m in Sources */,
+				F59CDEC91C1FC6AE008B5358 /* RxWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
