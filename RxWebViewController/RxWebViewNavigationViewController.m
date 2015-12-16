@@ -36,6 +36,15 @@
     return [super popViewControllerAnimated:animated];
 }
 
+-(NSArray<UIViewController *> *)popToViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    self.shouldPopItemAfterPopViewController = YES;
+    return [super popToViewController:viewController animated:animated];
+}
+
+-(NSArray<UIViewController *> *)popToRootViewControllerAnimated:(BOOL)animated{
+    self.shouldPopItemAfterPopViewController = YES;
+    return [super popToRootViewControllerAnimated:animated];
+}
 -(BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem *)item{
     
     //! 如果应该pop，说明是在 popViewController 之后，应该直接 popItems
