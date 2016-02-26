@@ -33,16 +33,25 @@
 
 -(UIViewController*)popViewControllerAnimated:(BOOL)animated{
     self.shouldPopItemAfterPopViewController = YES;
+    if (self.navigationBarHidden) {
+        self.navigationBarHidden = NO;
+    }
     return [super popViewControllerAnimated:animated];
 }
 
 -(NSArray<UIViewController *> *)popToViewController:(UIViewController *)viewController animated:(BOOL)animated{
     self.shouldPopItemAfterPopViewController = YES;
+    if (self.navigationBarHidden) {
+        self.navigationBarHidden = NO;
+    }
     return [super popToViewController:viewController animated:animated];
 }
 
 -(NSArray<UIViewController *> *)popToRootViewControllerAnimated:(BOOL)animated{
     self.shouldPopItemAfterPopViewController = YES;
+    if (self.navigationBarHidden) {
+        self.navigationBarHidden = NO;
+    }
     return [super popToRootViewControllerAnimated:animated];
 }
 -(BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem *)item{
