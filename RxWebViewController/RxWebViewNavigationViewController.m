@@ -59,6 +59,23 @@
     //! 如果应该pop，说明是在 popViewController 之后，应该直接 popItems
     if (self.shouldPopItemAfterPopViewController) {
         self.shouldPopItemAfterPopViewController = NO;
+        
+        if ([self.topViewController isKindOfClass:[RxWebViewController class]]) {
+            RxWebViewController* webVC = (RxWebViewController*)self.viewControllers.lastObject;
+            if (!webVC.webView.canGoBack) {
+                [self popViewControllerAnimated:YES];
+            }
+        } else {
+            if([self.viewControllers count] < [navigationBar.items count]) {
+                return YES;
+            } else {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self popViewControllerAnimated:YES];
+                });
+                return NO;
+            }
+        }
+        
         return YES;
     }
     
