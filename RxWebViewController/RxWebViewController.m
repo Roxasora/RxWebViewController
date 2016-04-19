@@ -245,7 +245,7 @@
 //    NSLog(@"pan x %f,pan y %f",translation.x,translation.y);
     
     if (panGesture.state == UIGestureRecognizerStateBegan) {
-        if (location.x <= 50 && translation.x > 0) {  //开始动画
+        if (location.x <= 50 && location.x > 0) {  //开始动画
             [self startPopSnapshotView];
         }
     }else if (panGesture.state == UIGestureRecognizerStateCancelled || panGesture.state == UIGestureRecognizerStateEnded){
