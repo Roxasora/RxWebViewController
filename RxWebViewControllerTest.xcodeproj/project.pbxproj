@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DE53C3B1CCF04C2006B9162 /* UINavigationController+RxWebViewNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE53C3A1CCF04C2006B9162 /* UINavigationController+RxWebViewNavigation.m */; };
 		F53D31EC1BDB339D002322E1 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53D31EB1BDB339D002322E1 /* Reveal.framework */; };
 		F59CDE9F1C1FBFB9008B5358 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE801C1FBFB9008B5358 /* AppDelegate.m */; };
 		F59CDEA01C1FBFB9008B5358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59CDE811C1FBFB9008B5358 /* Assets.xcassets */; };
@@ -14,9 +15,7 @@
 		F59CDEA21C1FBFB9008B5358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59CDE841C1FBFB9008B5358 /* Main.storyboard */; };
 		F59CDEA31C1FBFB9008B5358 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F59CDE861C1FBFB9008B5358 /* demo.gif */; };
 		F59CDEA41C1FBFB9008B5358 /* icon-140.png in Resources */ = {isa = PBXBuildFile; fileRef = F59CDE871C1FBFB9008B5358 /* icon-140.png */; };
-		F59CDEA51C1FBFB9008B5358 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F59CDE881C1FBFB9008B5358 /* Info.plist */; };
 		F59CDEA61C1FBFB9008B5358 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE891C1FBFB9008B5358 /* main.m */; };
-		F59CDEA71C1FBFB9008B5358 /* myNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE8B1C1FBFB9008B5358 /* myNavigationViewController.m */; };
 		F59CDEA81C1FBFB9008B5358 /* RxLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE8E1C1FBFB9008B5358 /* RxLabel.m */; };
 		F59CDEA91C1FBFB9008B5358 /* RxTextLinkTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE901C1FBFB9008B5358 /* RxTextLinkTapView.m */; };
 		F59CDEB01C1FBFB9008B5358 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDE9E1C1FBFB9008B5358 /* ViewController.m */; };
@@ -27,10 +26,10 @@
 		F59CDEC71C1FC6AE008B5358 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEBE1C1FC6AE008B5358 /* NJKWebViewProgress.m */; };
 		F59CDEC81C1FC6AE008B5358 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEC01C1FC6AE008B5358 /* NJKWebViewProgressView.m */; };
 		F59CDEC91C1FC6AE008B5358 /* RxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEC21C1FC6AE008B5358 /* RxWebViewController.m */; };
-		F59CDECA1C1FC6AE008B5358 /* RxWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CDEC41C1FC6AE008B5358 /* RxWebViewNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DE53C3A1CCF04C2006B9162 /* UINavigationController+RxWebViewNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+RxWebViewNavigation.m"; sourceTree = "<group>"; };
 		F53D31991BDA4FCA002322E1 /* RxWebViewControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxWebViewControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53D31EB1BDB339D002322E1 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		F59CDE7F1C1FBFB9008B5358 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,8 +41,6 @@
 		F59CDE871C1FBFB9008B5358 /* icon-140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-140.png"; sourceTree = "<group>"; };
 		F59CDE881C1FBFB9008B5358 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59CDE891C1FBFB9008B5358 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F59CDE8A1C1FBFB9008B5358 /* myNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myNavigationViewController.h; sourceTree = "<group>"; };
-		F59CDE8B1C1FBFB9008B5358 /* myNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myNavigationViewController.m; sourceTree = "<group>"; };
 		F59CDE8D1C1FBFB9008B5358 /* RxLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxLabel.h; sourceTree = "<group>"; };
 		F59CDE8E1C1FBFB9008B5358 /* RxLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxLabel.m; sourceTree = "<group>"; };
 		F59CDE8F1C1FBFB9008B5358 /* RxTextLinkTapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxTextLinkTapView.h; sourceTree = "<group>"; };
@@ -61,8 +58,6 @@
 		F59CDEC01C1FC6AE008B5358 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
 		F59CDEC11C1FC6AE008B5358 /* RxWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewController.h; sourceTree = "<group>"; };
 		F59CDEC21C1FC6AE008B5358 /* RxWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewController.m; sourceTree = "<group>"; };
-		F59CDEC31C1FC6AE008B5358 /* RxWebViewNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewNavigationViewController.h; sourceTree = "<group>"; };
-		F59CDEC41C1FC6AE008B5358 /* RxWebViewNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +93,6 @@
 		F59CDE7E1C1FBFB9008B5358 /* RxWebViewControllerTest */ = {
 			isa = PBXGroup;
 			children = (
-				F59CDE8A1C1FBFB9008B5358 /* myNavigationViewController.h */,
-				F59CDE8B1C1FBFB9008B5358 /* myNavigationViewController.m */,
 				F59CDEB41C1FC06B008B5358 /* myNormalViewController.h */,
 				F59CDEB51C1FC06B008B5358 /* myNormalViewController.m */,
 				F59CDEB61C1FC06B008B5358 /* myNormalViewController.xib */,
@@ -138,8 +131,7 @@
 				F59CDEBC1C1FC6AE008B5358 /* NJKWebViewProgress */,
 				F59CDEC11C1FC6AE008B5358 /* RxWebViewController.h */,
 				F59CDEC21C1FC6AE008B5358 /* RxWebViewController.m */,
-				F59CDEC31C1FC6AE008B5358 /* RxWebViewNavigationViewController.h */,
-				F59CDEC41C1FC6AE008B5358 /* RxWebViewNavigationViewController.m */,
+				2DE53C3A1CCF04C2006B9162 /* UINavigationController+RxWebViewNavigation.m */,
 			);
 			path = RxWebViewController;
 			sourceTree = "<group>";
@@ -181,7 +173,7 @@
 		F53D31911BDA4FCA002322E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = roxasora;
 				TargetAttributes = {
 					F53D31981BDA4FCA002322E1 = {
@@ -220,7 +212,6 @@
 				F59CDEB81C1FC06B008B5358 /* myNormalViewController.xib in Resources */,
 				F59CDEC61C1FC6AE008B5358 /* backItemImage_hl@2x.png in Resources */,
 				F59CDEA21C1FBFB9008B5358 /* Main.storyboard in Resources */,
-				F59CDEA51C1FBFB9008B5358 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,10 +225,9 @@
 				F59CDEC71C1FC6AE008B5358 /* NJKWebViewProgress.m in Sources */,
 				F59CDEA61C1FBFB9008B5358 /* main.m in Sources */,
 				F59CDE9F1C1FBFB9008B5358 /* AppDelegate.m in Sources */,
+				2DE53C3B1CCF04C2006B9162 /* UINavigationController+RxWebViewNavigation.m in Sources */,
 				F59CDEA81C1FBFB9008B5358 /* RxLabel.m in Sources */,
 				F59CDEB01C1FBFB9008B5358 /* ViewController.m in Sources */,
-				F59CDEA71C1FBFB9008B5358 /* myNavigationViewController.m in Sources */,
-				F59CDECA1C1FC6AE008B5358 /* RxWebViewNavigationViewController.m in Sources */,
 				F59CDEB71C1FC06B008B5358 /* myNormalViewController.m in Sources */,
 				F59CDEC81C1FC6AE008B5358 /* NJKWebViewProgressView.m in Sources */,
 				F59CDEA91C1FBFB9008B5358 /* RxTextLinkTapView.m in Sources */,
