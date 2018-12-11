@@ -1,13 +1,13 @@
 # RxWebViewController
 
-####更新-15.12.9 为了解决普通 viewController 会出现的各种 pop 问题，弃用之前的 category 形式，改为子类化了 UINavigationController，所以大家需要继承 ```RxWebViewNavigationViewController``` 作为你的 navigationController！
+更新-15.12.9 为了解决普通 viewController 会出现的各种 pop 问题，弃用之前的 category 形式，改为子类化了 UINavigationController，所以大家需要继承 ```RxWebViewNavigationViewController``` 作为你的 navigationController！
 
-####Update - 15.12.9 In order to solve the issues of pop normal viewControllers ,I've deprecated the category in RXWebViewController and added the subclass of UINavigationController, so you need subclass the ```RxWebViewNavigationViewController``` as your custom navigationController
+Update - 15.12.9 In order to solve the issues of pop normal viewControllers ,I've deprecated the category in RXWebViewController and added the subclass of UINavigationController, so you need subclass the ```RxWebViewNavigationViewController``` as your custom navigationController
 
 ----
 
-###it's a custom UIWebViewController that navigate like navigationController,just like wechat do.
-###实现类似微信的webView导航效果，左滑返回上个网页，就像UINavigationController 
+### it's a custom UIWebViewController that navigate like navigationController,just like wechat do.
+### 实现类似微信的webView导航效果，左滑返回上个网页，就像UINavigationController 
 
 
 like the screen shot gif
@@ -16,20 +16,20 @@ like the screen shot gif
 
 ### usage使用
 
-###Install 安装
+### Install 安装
 
 -------
 
 You just need to drag/copy the "RxWebViewController" folder and drop in your project
 将“RxWebViewController”文件夹拖进你的工程中即可
 
-###init and push 
+### init and push 
 
 -------
 
 usage is simple
    		
-####-------WARNING-------- first,you should subclass a navigationController
+-------WARNING-------- first,you should subclass a navigationController
 
 		#import "RxWebViewNavigationViewController.h"
 
@@ -43,7 +43,7 @@ then use webviewController as normal viewController
 		RxWebViewController* webViewController = [[RxWebViewController alloc] initWithUrl:[NSURL URLWithString:urlStr]];
     	[self.navigationController pushViewController:webViewController animated:YES];
 
-####and if you want to do some custom things with webview,just subclass it 如果你需要webview的更进一步自定义，子类化即可
+and if you want to do some custom things with webview,just subclass it 如果你需要webview的更进一步自定义，子类化即可
 
 
 		@interface myWebViewController : RxWebViewController
@@ -53,7 +53,7 @@ then use webviewController as normal viewController
 		@end
                                 
                                 
-####navigation bar tint color and back button style 导航栏的颜色和返回按钮样式
+navigation bar tint color and back button style 导航栏的颜色和返回按钮样式
 
 
 导航栏中出现的 返回 和 关闭 ，均会继承你的 navigationController 中对 navigationBar 的设置，比如：
@@ -74,7 +74,7 @@ then use webviewController as normal viewController
  ![image](http://img.hb.aicdn.com/ab84843887791178ba8764b9bde04f4b34f338cc10f8e-1umnI5_fw658)
  
  
-###Thanks
+### Thanks
 
 -------
 
